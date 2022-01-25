@@ -1,0 +1,18 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+
+    <declare-styleable name="DashLineView">
+        <!--     虚线之间的间隔距离   -->
+        <attr name="dashWidth" format="dimension" />
+        <!--    虚线的宽度  在竖线时候  是虚线的高度    -->
+        <attr name="lineWidth" format="dimension" />
+        <!--    虚线的高度  在竖线时候  是虚线的宽度    -->
+        <attr name="lineHeight" format="dimension" />
+        <!--     虚线颜色   -->
+        <attr name="lineColor" format="color" />
+        <!--     虚线方向  1是竖虚线  0是横向虚线    -->
+        <attr name="dashOrientation" format="integer" />
+
+    </declare-styleable>
+
+</resources>
